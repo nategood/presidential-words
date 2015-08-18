@@ -1,0 +1,15 @@
+{
+  "name": "republican-debate",
+  "version": "0.0.0",
+  "description": "",
+  "main": "parse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "natural": "~0.2.1",
+    "underscore": "~1.8.3"
+  }
+}
