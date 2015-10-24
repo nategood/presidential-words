@@ -15,8 +15,8 @@ d = d.split(/\n+/);
 
 for (i in d) {
     line = d[i];
-    re = /^[A-Z \-]+\:/;
-    re2 = /\([A-Z ]+\)/g;
+    re = /^[A-Z'’ \-]+\:/;
+    re2 = /(\(|\[)[A-Z ]+?(\)|\])/gi;
     if (!line) continue;
     matches = line.match(re);
     if (matches) {
